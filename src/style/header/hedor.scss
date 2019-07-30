@@ -1,0 +1,23 @@
+    .hedor {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .fio {
+        font-size: 26px;
+        font-weight: 500;
+        line-height: 1.4;
+        color: #ebebeb;
+    }
+    
+    .fio:hover {
+        color: #19d9ff;
+        text-decoration: none;
+        background-color: transparent
+    }
+    
+    @media screen and (min-width: 992px) {
+        .fio {
+            font-size: 36px;
+        }
+    }

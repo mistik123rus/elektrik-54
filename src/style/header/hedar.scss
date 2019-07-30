@@ -1,0 +1,28 @@
+.hedar {
+    display: flex;
+    justify-content: center;
+}
+
+.tel {
+    color: #ebebeb;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 1.5;
+    padding-bottom: 5px;
+}
+
+.tel :hover {
+    color: #19d9ff;
+    text-decoration: none;
+    background-color: transparent
+}
+
+.mob {
+    color: #7fff00;
+}
+
+@media screen and (min-width: 992px) {
+    .tel {
+        font-size: 22px;
+    }
+}

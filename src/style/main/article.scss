@@ -1,0 +1,19 @@
+.article {
+    padding: 0 10px;
+    &__title {
+        display: block;
+        margin: 0 0 15px;
+    }
+    &__p {
+        text-indent: 1.5em;
+    }
+    &__p:last-child {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .article {
+        padding: 0 20px;
+    }
+}

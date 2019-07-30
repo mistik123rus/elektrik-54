@@ -1,0 +1,42 @@
+.rsb-title {
+    margin: 0 10px;
+    font-size: 1.6em;
+    line-height: 2;
+    font-weight: bold;
+    border-bottom: 1px solid #e2dee1;
+    -webkit-box-shadow: 0 1px 0 0 #fff;
+    box-shadow: 0 1px 0 0 #fff;
+    padding: 0 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.retyu {
+    color: #08a9f9;
+}
+
+.retyg {
+    background: white;
+    margin-left: 5px;
+    max-width: 100%;
+    background-size: cover;
+    flex: 0 0 33%;
+}
+
+.sidebar-category__thumb {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.sidebar-category__title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #79625a;
+}
+
+.sidebar-category__title:hover {
+    color: #19d9ff;
+    background-color: transparent;
+}
