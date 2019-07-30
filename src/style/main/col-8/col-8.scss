@@ -75,6 +75,12 @@
         padding-bottom: 15px;
     }
     
+    .photo-container__img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+    
     .fotet {
         padding: 10px 10px 0;
         font-weight: normal;

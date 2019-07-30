@@ -340,6 +340,12 @@ body {
   text-align: center;
   font-size: 14px; }
 
+body {
+  color: #79625a;
+  background: url("../img/bg.png");
+  font-family: Arial, sans-serif;
+  font-size: 14px; }
+
 .hedar {
   display: flex;
   justify-content: center; }
@@ -399,12 +405,6 @@ body {
 .log {
   display: flex;
   position: absolute; }
-
-body {
-  color: #79625a;
-  background: url("../img/bg.png");
-  font-family: Arial, sans-serif;
-  font-size: 14px; }
 
 .article {
   padding: 0 10px; }
@@ -611,6 +611,11 @@ body {
   -webkit-box-shadow: 0 3px 15px -6px #79625a;
   box-shadow: 0 3px 15px -6px #79625a;
   padding-bottom: 15px; }
+
+.photo-container__img {
+  display: block;
+  max-width: 100%;
+  height: auto; }
 
 .fotet {
   padding: 10px 10px 0;
