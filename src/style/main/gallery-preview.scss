@@ -1,0 +1,40 @@
+.gallery-preview {
+    -webkit-box-shadow: 0 3px 15px -6px #79625a;
+    box-shadow: 0 3px 15px -6px #79625a;
+    margin-bottom: 15px;
+    &__img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+.fotet {
+    padding: 10px 10px 0;
+    font-weight: normal;
+    margin-bottom: 8px;
+    line-height: 1;
+    font-size: 20px;
+    color: inherit;
+}
+
+.short-info {
+    border-bottom: 1px solid #e2dee1;
+    background: -webkit-gradient(linear, left bottom, left top, from(#f1eee6), to(#fff));
+    background: -webkit-linear-gradient(bottom, #f1eee6, #fff);
+    background: -o-linear-gradient(bottom, #f1eee6, #fff);
+    background: linear-gradient(to top, #f1eee6, #fff);
+    padding: 10px;
+    overflow: hidden;
+    margin: 0;
+    display: flex;
+    font-size: small;
+}
+
+.short-info-date {
+    margin-right: 7px;
+}
+
+.short-info-views {
+    margin-right: 7px;
+}

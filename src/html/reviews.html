@@ -10,7 +10,7 @@
     <title>Услуги электрика в Новосибирске. Электромонтажные работы</title>
 </head>
 
-<body>
+<body class="wersi">
     <div class="content">
 
         <div class="heder">
@@ -28,113 +28,74 @@
             </div>
         </div>
 
-        <nav class="top-navigation" itemscope="" itemtype="http://schema.org/SiteNavigationElement" role="navigation">
-            <ul class="navigation-menu">
-                <li class="navigation-menu__item" itemprop="name" role="presentation"><a href="index.html" class="navigation-menu__link" itemprop="url">Услуги электрика</a></li>
-                <li class="navigation-menu__item" itemprop="name" role="presentation"><a href="price.html" class="navigation-menu__link" itemprop="url">Цены</a></li>
-                <li class="navigation-menu__item" itemprop="name" role="presentation"><a href="photos.html" class="navigation-menu__link" itemprop="url">Фото работ</a></li>
-                <li class="navigation-menu__item" itemprop="name" role="presentation"><a href="reviews.html" class="navigation-menu__link" itemprop="url">Отзывы</a></li>
-                <li class="navigation-menu__item" itemprop="name" role="presentation"><a href="contacts.html" class="navigation-menu__link" itemprop="url">Контакты</a></li>
-            </ul>
-        </nav>
+        <!--=include templates/menu.html -->
 
         <!--=include templates/breadcrumbs.html -->
 
-        <div class="container-fluid">
+        <div class="container-fluid tyret">
 
             <div class="col-sm-8 col-md-8 rumas">
                 <h1 class="page-title" itemprop="headline">Отзывы</h1>
                 <div class="content-body">
 
-                    <div id="comments-full">
-                        <ol class="commentlist">
+                    <!--=include templates/comment.html -->
 
-                            <li class="comment" id="comment-20">
-                                <div class="comment-body">
-                                    <div class="comment-author vcard">
-                                        <a class="comm" href="#comment-20">1 января 2018, 03:00</a> - <span class="fn">Ник:</span>
-                                    </div>
-                                    <p class="comment-text">Пришлось срочно менять всю электропроводку в старой панельной 3х комнатной квартире.<br> Заодно решили установить розетки на новые места и увеличить их количество.<br> Ребята приехали оценили масштаб трагедии и уже
-                                        на следующий день прислали смету.<br> Все работы были закончены за 3 дня, несмотря на то что дело осложнялось наличием мебели(квартира жилая)<br> Всё сделано аккуратно, ребята очень вежливые, весёлые и не матерятся
-                                        :)
-                                        <br> Я очень доволен и категорически их рекомендую.<br> Дядя Серёжа, дядя Саша, СПАСИБО ВАМ ОГРОМНОЕ за Новый Год с новой электрикой!!!</p>
-                                </div>
-                            </li>
-                            <li class="comment" id="comment-3">
-                                <div class="comment-body">
-                                    <div class="comment-author vcard">
-                                        <a class="comm" href="#comment-3">17 мая 2016, 16:42</a> - <span class="fn">Антон М.:</span>
-                                    </div>
-                                    <p class="comment-text">Хочу поблагодарить электриков за выполненную работу на кухне. Претензий нет... Вам привет, если видите этот комментарий. Еще раз спасибо! 8)</p>
-                                </div>
-                            </li>
-                            <li class="comment" id="comment-2">
-                                <div class="comment-body">
-                                    <div class="comment-author vcard">
-                                        <a class="comm" href="#comment-2">17 марта 2016, 11:23</a> - <span class="fn">Нина:</span>
-                                    </div>
-                                    <p class="comment-text">Меняли кухню, требовалось перенести розетки. Электрики сделали все без грязи, пыли и навели порядок за собой. Профессионалы, одно слово!</p>
-                                </div>
-                            </li>
-                            <li class="comment" id="comment-1">
-                                <div class="comment-body">
-                                    <div class="comment-author vcard">
-                                        <a class="comm" href="#comment-1">12 сентября 2015, 10:13</a> - <span class="fn">Елена:</span>
-                                    </div>
-                                    <p class="comment-text">Нужно было подключить стиральную машину в ванной и перенести под нее розетку. Позвонил. Приехали сделали очень быстро. Вежливые. Рекомендую!</p>
-                                </div>
-                            </li>
+                    <!--=include templates/comment.html -->
 
-                        </ol>
-                    </div>
+                    <!--=include templates/comment.html -->
 
+                    <!--=include templates/comment.html -->
 
-                    <div id="respond">
-                        <h3 id="reply-title">Оставить отзыв</h3>
-
-                        <form id="w0" action="/reviews/add/" method="post">
-                            <input type="hidden" name="_csrf-frontend" value="kOr5vu7IStO1ivrKosqHV7uFfKHIsW-kf5-qOTgHXMb8rpjmqpx66tP8tuf4qM4f1c02lLn9Hesx8ut1DlUKgA==">
-                            <div class="bd-callout bd-callout blu">
-                                <p class="comment-notify bg-outline-light">Ваши контакты не будут опубликованы. Длина отзыва не должна превышать 1000 символов.</p>
-                            </div>
-                            <div style="padding: 0 15px;">
-                                <div class="form-group field-testimonialform-name required">
-                                    <label class="control-label" for="testimonialform-name">Как к Вам обращаться?</label>
-                                    <input type="text" id="testimonialform-name" class="form-control" name="TestimonialForm[name]" aria-required="true">
-
-                                    <div class="help-block"></div>
-                                </div>
-                                <div class="form-group field-testimonialform-email">
-                                    <label class="control-label" for="testimonialform-email">Как с Вами связаться (при необходимости)</label>
-                                    <input type="text" id="testimonialform-email" class="form-control" name="TestimonialForm[email]">
-
-                                    <div class="help-block"></div>
-                                </div>
-                                <div class="form-group field-testimonialform-text required">
-                                    <label class="control-label" for="testimonialform-text">Отзыв</label>
-                                    <textarea id="testimonialform-text" class="form-control" name="TestimonialForm[text]" rows="4" placeholder="Текст отзыва" aria-required="true"></textarea>
-
-                                    <div class="help-block"></div>
-                                </div>
-                                <div class="form-group field-testimonialform-captcha">
-                                    <label class="control-label" for="testimonialform-captcha">Captcha</label>
-                                    <input type="hidden" id="testimonialform-captcha" name="TestimonialForm[captcha]">
-                                    <div class="g-recaptcha" data-sitekey="6Ld48x4TAAAAAAsvW66lknTuly_zpCkcy_LR1s9b" data-callback="recaptchaCallback" data-expired-callback="recaptchaExpiredCallback">
-                                        <div style="width: 304px; height: 78px;">
-                                            <div><iframe src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6Ld48x4TAAAAAAsvW66lknTuly_zpCkcy_LR1s9b&amp;co=aHR0cHM6Ly9lbGVrdHJpay01NC5ydTo0NDM.&amp;hl=ru&amp;v=v1562567553145&amp;size=normal&amp;cb=gta72o8vlx70"
-                                                    width="304" height="78" role="presentation" name="a-68ptqndzwxgu" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe></div>
-                                            <textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea>
-                                        </div>
-                                    </div>
-
-                                    <div class="help-block"></div>
-                                </div>
-                                <button type="submit" class="btn btn-outline-info">Оставить отзыв</button> </div>
-                        </form>
-                    </div>
 
                 </div>
+
+
+                <div class="respond">
+                    <h3 class="reply-title">Оставить отзыв</h3>
+
+                    <form id="w0" action="/reviews/add/" method="post">
+                        <input type="hidden" name="_csrf-frontend" value="kOr5vu7IStO1ivrKosqHV7uFfKHIsW-kf5-qOTgHXMb8rpjmqpx66tP8tuf4qM4f1c02lLn9Hesx8ut1DlUKgA==">
+                        <div class="bd-callout bd-callout blu">
+                            <p class="comment-notify bg-outline-light">Ваши контакты не будут опубликованы. Длина отзыва не должна превышать 1000 символов.</p>
+                        </div>
+                        <div style="padding: 0 15px;">
+                            <div class="form-group field-testimonialform-name required">
+                                <label class="control-label" for="testimonialform-name">Как к Вам обращаться?</label>
+                                <input type="text" id="testimonialform-name" class="form-control" name="TestimonialForm[name]" aria-required="true">
+
+                                <div class="help-block"></div>
+                            </div>
+                            <div class="form-group field-testimonialform-email">
+                                <label class="control-label" for="testimonialform-email">Как с Вами связаться (при необходимости)</label>
+                                <input type="text" id="testimonialform-email" class="form-control" name="TestimonialForm[email]">
+
+                                <div class="help-block"></div>
+                            </div>
+                            <div class="form-group field-testimonialform-text required">
+                                <label class="control-label" for="testimonialform-text">Отзыв</label>
+                                <textarea id="testimonialform-text" class="form-control" name="TestimonialForm[text]" rows="4" placeholder="Текст отзыва" aria-required="true"></textarea>
+
+                                <div class="help-block"></div>
+                            </div>
+                            <div class="form-group field-testimonialform-captcha">
+                                <label class="control-label" for="testimonialform-captcha">Captcha</label>
+                                <input type="hidden" id="testimonialform-captcha" name="TestimonialForm[captcha]">
+                                <div class="g-recaptcha" data-sitekey="6Ld48x4TAAAAAAsvW66lknTuly_zpCkcy_LR1s9b" data-callback="recaptchaCallback" data-expired-callback="recaptchaExpiredCallback">
+                                    <div style="width: 304px; height: 78px;">
+                                        <div><iframe src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6Ld48x4TAAAAAAsvW66lknTuly_zpCkcy_LR1s9b&amp;co=aHR0cHM6Ly9lbGVrdHJpay01NC5ydTo0NDM.&amp;hl=ru&amp;v=v1562567553145&amp;size=normal&amp;cb=gta72o8vlx70"
+                                                width="304" height="78" role="presentation" name="a-68ptqndzwxgu" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe></div>
+                                        <textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea>
+                                    </div>
+                                </div>
+
+                                <div class="help-block"></div>
+                            </div>
+                            <button type="submit" class="btn btn-outline-info">Оставить отзыв</button> </div>
+                    </form>
+                </div>
+
             </div>
+
 
             <div class="col-sm-4 col-md-4 retyg">
                 <h3 class="rsb-title">Категории</h3>
@@ -166,6 +127,7 @@
         </div>
         <a href="#" title="Вернуться к началу" class="topbutton">^Наверх</a>
     </div>
+
     <footer class="footer">
 
         <div class="content">
@@ -188,8 +150,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <div style="display:none;" class="nav_up" id="nav_up"></div>
-    <div style="display:none;" class="nav_down" id="nav_down"></div>
+
 </body>
 
 </html>

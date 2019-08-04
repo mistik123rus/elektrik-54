@@ -60,61 +60,17 @@
         margin: 10px 0;
     }
     
-    .tabb {
-        color: #79625a;
-    }
-    
-    .content-body {
-        padding: 0 15px;
-        padding-bottom: 20px;
-    }
-    
-    .photo-container {
-        -webkit-box-shadow: 0 3px 15px -6px #79625a;
-        box-shadow: 0 3px 15px -6px #79625a;
-        padding-bottom: 15px;
-    }
-    
-    .photo-container__img {
-        display: block;
-        max-width: 100%;
-        height: auto;
-    }
-    
-    .fotet {
-        padding: 10px 10px 0;
-        font-weight: normal;
-        margin-bottom: 8px;
-        line-height: 1;
-        font-size: 20px;
-        color: inherit;
-    }
-    
-    .short-info {
-        border-bottom: 1px solid #e2dee1;
-        background: -webkit-gradient(linear, left bottom, left top, from(#f1eee6), to(#fff));
-        background: -webkit-linear-gradient(bottom, #f1eee6, #fff);
-        background: -o-linear-gradient(bottom, #f1eee6, #fff);
-        background: linear-gradient(to top, #f1eee6, #fff);
-        padding: 10px;
-        overflow: hidden;
-        margin: 0 0 6px 0;
-        display: flex;
-        font-size: small;
-    }
-    
-    .short-info-date {
-        margin-right: 7px;
-    }
-    
-    .short-info-views {
-        margin-right: 7px;
-    }
-    
     .content-body {
         display: flex;
         flex-direction: column;
         background-color: white;
+        padding: 0 15px;
+        padding-bottom: 20px;
+    }
+    
+    .thumb-img {
+        max-width: 100%;
+        overflow: hidden;
     }
     
     .fotopic {
@@ -137,11 +93,6 @@
     figure {
         margin: 0 0 1rem;
         overflow: hidden;
-    }
-    
-    .comment-author.vcard {
-        display: flex;
-        width: fit-content;
     }
     
     .comment-body {
@@ -218,8 +169,117 @@
     }
     
     .retro {
-        margin-left: 20px;
         text-indent: 1.5em;
+    }
+    
+    .article__title {
+        margin: 0 0 15px 0;
+        text-shadow: 1px 1px 1px #e1e1e1;
+        color: #654e46;
+        line-height: 2;
+        background-color: #fff;
+        -webkit-box-shadow: 0 3px 15px -7px #654e46;
+        box-shadow: 0 3px 15px -7px #654e46;
+        padding: 0 10px;
+        font-weight: normal;
+        font-size: 1.6em;
+    }
+    
+    .price-section__title {
+        text-align: center;
+        font-size: 16px;
+        font-weight: 700;
+        background: #fff;
+    }
+    
+    .commentlist {
+        margin-top: 0;
+        margin-bottom: 1rem;
+    }
+    
+    .qwerry {
+        color: #79625a;
+        font-size: 14px;
+    }
+    
+    .table-bordered>tbody>tr>td,
+    .table-bordered>tbody>tr>th,
+    .table-bordered>tfoot>tr>td,
+    .table-bordered>tfoot>tr>th,
+    .table-bordered>thead>tr>td,
+    .table-bordered>thead>tr>th {
+        border: 1px solid #ddd;
+    }
+    
+    .table>tbody>tr>td,
+    .table>tbody>tr>th,
+    .table>tfoot>tr>td,
+    .table>tfoot>tr>th,
+    .table>thead>tr>td,
+    .table>thead>tr>th {
+        padding: 8px;
+        line-height: 1.42857143;
+        border-top: 1px solid #ddd;
+    }
+    
+    .table-bordered {
+        border: 1px solid #ddd;
+    }
+    
+    .table {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    #content {
+        -webkit-box-shadow: 0 -3px 15px -7px #79625a;
+        box-shadow: 0 -3px 15px -7px #79625a;
+        padding-right: 0;
+        padding-left: 0;
+    }
+    
+    .category__description {
+        padding: 0 20px;
+    }
+    
+    .res:hover {
+        color: #19d9ff;
+        text-decoration: none;
+        background-color: transparent;
+    }
+    
+    .res {
+        -webkit-transition: all .3s;
+        -o-transition: all .3s;
+        transition: all .3s;
+        color: #654e46;
+        text-decoration: none;
+    }
+    
+    .resa {
+        -webkit-transition: all .3s;
+        -o-transition: all .3s;
+        transition: all .3s;
+        text-decoration: none;
+    }
+    
+    .resa:hover {
+        color: #19d9ff;
+        text-decoration: none;
+        background-color: transparent;
+    }
+    
+    .contacts {
+        margin-bottom: 35px
+    }
+    
+    .ytr {
+        font-weight: 600;
+    }
+    
+    .contacts__email {
+        margin-top: 10px;
     }
     
     @media screen and (min-width: 768px) {
